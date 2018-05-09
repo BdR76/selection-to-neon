@@ -1,15 +1,16 @@
 selection to neon glow
 ======================
 
-This is a GIMP Python script to easily create a neon glow effect
-from a selection.
+This is a GIMP Python plug-in to create neon glow effect based on a selection.
+Turn selected region into lightsaber or 80s cartoon underlighting (aka "Bipack
+Glow") effects.
 
 ![Selection to neon glow effect](/preview.png?raw=true "preview")
 
 How to use it
 -------------
-Download and install [GIMP v2.8](https://www.gimp.org/) and copy the file
-`selection_to_neon_glow.py` into the following directory:
+Download and install [GIMP](https://www.gimp.org/) and copy the file
+`selection_neon_glow.py` into the following directory:
 
 	.\GIMP 2\lib\gimp\2.0\plug-ins\
 
@@ -19,6 +20,6 @@ should be a new menu item available, under `Script-Fu -> Selection to neon glow`
 Known bugs / trouble shooting
 -----------------------------
 When merging the new layers into a single layer, it somehow looks less "glowy".
-Don't know what causes this is, possible bug in GIMP, if anyone knows why please let me know.
+Don't know what causes this, possibly a bug in GIMP, if anyone knows why please let me know.
 
 Questions, comments -- Bas de Reuver (bdr1976@gmail.com)
