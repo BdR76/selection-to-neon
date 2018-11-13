@@ -21,7 +21,7 @@ Known bugs / trouble shooting
 -----------------------------
 There is a bug in GIMP for Windows 64bit causing an error when selecting a color
 from the plug-in dialog. When clicking on the color widget will give an eror message
-"unable to run GimpPdbProgress callback", this bug [has been reported](https://bugzilla.gnome.org/show_bug.cgi?id=795999).
+"unable to run GimpPdbProgress callback", this bug [has been reported](https://gitlab.gnome.org/GNOME/gimp/issues/1438).
 
 When merging the new layers into a single layer, it somehow looks less "glowy".
 Don't know what causes this, possibly a bug in GIMP, if anyone knows why please let me know.
