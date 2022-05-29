@@ -12,7 +12,13 @@ How to use it
 Download and install [GIMP](https://www.gimp.org/) and copy the file
 `selection_neon_glow.py` into the following directory:
 
-	.\GIMP 2\lib\gimp\2.0\plug-ins\
+	Windows (all users)
+	%PROGRAMFILES%\GIMP 2\lib\gimp\2.0\plug-ins\
+	Windows (single user)
+	%USERPROFILE%\AppData\Roaming\GIMP\2.10\plug-ins\
+	
+	Linux
+	~/.config/GIMP/2.10/plug-ins/
 
 After you've put the file in the plug-ins directory, open GIMP and there
 should be a new menu item available, under `Script-Fu -> Selection to neon glow`.
